@@ -1,4 +1,4 @@
-# Teste para Desenvolvedor Sênior Back-end - 
+# Teste para Desenvolvedor Sênior Back-end
 
 [![PHP Version][ico-php-version]](https://hub.docker.com/_/php)
 [![NGINX Version][ico-nginx-version]](https://hub.docker.com/_/nginx)
@@ -14,25 +14,23 @@ This is a simple example for running a docker container with PHP-FPM and NGINX.
 Clone this repository.
 
 ``` bash
-$ git clone https://github.com/
+$ git clone https://github.com/roberto-test-ym/question_1.git
 ```
 
 Switch to the cloned directory.
 
 ``` bash
-$ cd docker-nginx-php-example
+$ cd question_1
 ```
 
 Start the stack.
 
 ``` bash
-$ docker-compose up
+$ docker-compose up -d 
 ```
 
 
-Visit `localhost:8080` in your browser. You should see an output like this.
-
-![Hello World Output with Docker and PHP + Nginx](./resources/screenshot-01.png)
+Visit `localhost:8080` in your browser.
 
 ## License
 

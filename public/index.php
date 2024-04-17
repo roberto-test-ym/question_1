@@ -1,4 +1,10 @@
 <?php
+/*
+Esta versão utiliza o Crivo de Eratóstenes para encontrar todos os números primos 
+dentro do intervalo especificado de forma mais eficiente do que a abordagem anterior. 
+Isso melhora o desempenho, especialmente para intervalos maiores, 
+reduzindo a complexidade do algoritmo de O(n log log n) para O(n). 
+*/
 
 function sumOfPrimesInRange($start, $end) {
     // Initializes an array to check whether a number is prime or not
@@ -25,7 +31,7 @@ function sumOfPrimesInRange($start, $end) {
 }
 
 $start = 1;
-$end = 1000;
-
+$end = 1500;
 $result = sumOfPrimesInRange($start, $end);
+
 echo "Soma dos números primos entre $start e $end é: $result";

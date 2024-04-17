@@ -32,6 +32,14 @@ $ docker-compose up -d
 
 Visit `localhost:8080` in your browser.
 
+## Objetivo
+
+``` bash
+Desempenho e Otimização Implemente uma função em PHP que calcule a soma
+dos números primos em um intervalo dado. Otimize sua solução para lidar
+eficientemente com intervalos grandes.
+```
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.

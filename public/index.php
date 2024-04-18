@@ -1,7 +1,7 @@
 <?php
 /**
  * Esta versão utiliza o Crivo de Eratóstenes para encontrar todos os números primos
- * dentro do intervalo especificado de forma mais eficiente do que a abordagem anterior.
+ * dentro do intervalo especificado de forma mais eficiente.
  * Isso melhora o desempenho, especialmente para intervalos maiores,
  * reduzindo a complexidade do algoritmo de O(n log log n) para O(n).
  */
